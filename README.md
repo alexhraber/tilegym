@@ -53,11 +53,11 @@ git clone <tilegym-repository-url>
 cd tilegym
 pip install .
 ```
-It will automatically install `cuda-tile`, see https://github.com/nvidia/cutile-python.
+This will automatically install `cuda-tile`, see https://github.com/nvidia/cutile-python.
 
 If you want to use edit mode for `TileGym`, run `pip install -e .`
 
-We also provide Dockfile, you can refer to [modeling/transformers/README.md](modeling/transformers/README.md).
+We also provide a Dockfile, you can refer to [modeling/transformers/README.md](modeling/transformers/README.md).
 
 ## Quick Start
 
@@ -65,7 +65,7 @@ There are three main ways to use TileGym:
 
 ### 1. Explore Kernel Examples
 
-All kernel implementations are located in the `src/tilegym/ops/` directory. You can test individual operations with minimal scripts. Function-level usage and minimal scripts for individual ops are documented in [tests/ops/README.md](tests/ops/README.md)
+All kernel implementations are located in the `src/tilegym/ops/` directory. You can test individual operations with minimal scripts. Function-level usage and minimal scripts for individual ops are documented in [tests/ops/README.md](tests/ops/README.md).
 
 ### 2. Run Benchmarks
 
@@ -76,7 +76,7 @@ cd tests/benchmark
 bash run_all.sh
 ```
 
-Complete benchmark guide available in [tests/benchmark/README.md](tests/benchmark/README.md)
+Complete benchmark guide available in [tests/benchmark/README.md](tests/benchmark/README.md).
 
 ### 3. Run LLM Transformer Examples
 
@@ -95,7 +95,7 @@ docker build -t tilegym-transformers -f modeling/transformers/Dockerfile .
 docker run --gpus all -it tilegym-transformers bash
 ```
 
-More details in [modeling/transformers/README.md](modeling/transformers/README.md)
+More details in [modeling/transformers/README.md](modeling/transformers/README.md).
 
 ## Contributing
 
